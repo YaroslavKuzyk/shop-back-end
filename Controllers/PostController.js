@@ -4,8 +4,7 @@ class PostController {
     async create(req, res){
         try {
             const { title, categories, price } = req.body
-            const id = Date.now()
-            const post = await PostScheme.create({ id, title, categories, price })
+            const post = await PostScheme.create({title, categories, price })
             res.status(200).json(post)
         } catch (e) {
             res.status(500).json(e)

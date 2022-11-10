@@ -6,6 +6,8 @@ const router = new Router()
 router.post('/posts', PostController.create )
 router.get('/posts', PostController.getAll )
 
+export default router
+
 // {
 //     "title": "Post 1",
 //     "categories": "Categories 1",

@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 import router from './router.js'
 
 const PORT = 5050;
-const DB_URL = 'mongodb+srv://admin:admin@cluster0.kenq5sl.mongodb.net/?retryWrites=true&w=majority';
+const DB_URL = 'mongodb+srv://admin:admin@cluster0.vdm94td.mongodb.net/?retryWrites=true&w=majority';
 const app = express()
 
 app.use(express.json())
